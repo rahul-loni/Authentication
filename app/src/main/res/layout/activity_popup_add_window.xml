@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="#322F3A">
+    <TextView
+        android:id="@+id/txt_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="X"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Items "
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="items_Name"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="items_Price"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="items_Discription"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="items_categoris"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/white"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:drawableLeft="@drawable/ic_baseline_cloud_upload_24"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginRight="30dp"
+            android:text="Exit"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:text="Save"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

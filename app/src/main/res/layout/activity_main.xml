@@ -17,9 +17,6 @@
             android:id="@+id/firebasename"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="5dp"
             android:layout_marginTop="28dp"
             android:layout_marginBottom="60dp"
@@ -57,8 +54,8 @@
                     android:layout_height="match_parent">
                     <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/add"
+                        android:layout_height="90dp"
+                        android:src="@drawable/ic_baseline_add_comment_24"
                         android:layout_centerInParent="true"
                         android:id="@+id/add_item"/>
                     <TextView
@@ -73,6 +70,7 @@
                         android:textColor="@color/black"/>
 
                     <Button
+                        android:onClick="ShowPopup"
                         android:id="@+id/btnadd"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -144,7 +142,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/google"
+                        android:src="@drawable/insta"
                         android:layout_centerInParent="true"
                         android:id="@+id/view_product"/>
                     <TextView
