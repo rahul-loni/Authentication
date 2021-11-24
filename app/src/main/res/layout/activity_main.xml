@@ -95,7 +95,7 @@
                         android:id="@+id/delete_item"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/instagram"
+                        android:src="@drawable/removeitem"
                         android:layout_centerInParent="true"
                         app:civ_border_width="2dp"
                         app:civ_border_color="#ffefd5"/>
@@ -142,7 +142,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/insta"
+                        android:src="@drawable/ic_baseline_pageview_24"
                         android:layout_centerInParent="true"
                         android:id="@+id/view_product"/>
                     <TextView
@@ -181,7 +181,7 @@
                         android:id="@+id/view_inventory"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/firbase2"
+                        android:src="@drawable/inven"
                         android:layout_centerInParent="true"
                         app:civ_border_width="2dp"
                         app:civ_border_color="#ffefd5"/>
@@ -228,7 +228,7 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/instagram"
+                        android:src="@drawable/addcus"
                         android:layout_centerInParent="true"
                         android:id="@+id/image1"/>
                     <TextView
@@ -267,7 +267,7 @@
                         android:id="@+id/image3"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/insta"
+                        android:src="@drawable/stock"
                         android:layout_centerInParent="true"
                         app:civ_border_width="2dp"
                         app:civ_border_color="#ffefd5"/>
