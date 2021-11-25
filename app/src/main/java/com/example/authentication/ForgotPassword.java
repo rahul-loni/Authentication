@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class ForgotPassword extends AppCompatActivity {
+
     private EditText Email_txt;
     private Button send_email;
     private FirebaseAuth auth;
@@ -24,6 +25,7 @@ public class ForgotPassword extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
+
         Email_txt=(EditText)findViewById(R.id.edit_txt);
         send_email=(Button)findViewById(R.id.btnreset);
 

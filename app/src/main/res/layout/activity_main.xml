@@ -243,7 +243,8 @@
                         android:layout_below="@+id/image1"/>
 
                     <Button
-                        android:id="@+id/additem"
+                        android:onClick="ShowCustomer"
+                        android:id="@+id/addcustomr"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />

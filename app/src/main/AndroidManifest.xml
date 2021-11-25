@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Authentication">
-        <activity android:name=".Popup_Add_Window"></activity>
+        <activity android:name=".add_customer_winodw"></activity>
+        <activity android:name=".Popup_Add_Window" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
