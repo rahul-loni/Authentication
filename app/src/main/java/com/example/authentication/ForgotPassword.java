@@ -40,32 +40,37 @@ public class ForgotPassword extends AppCompatActivity {
         });
 
     }
+
     private void validatedata() {
-        email=Email_txt.getText().toString();
+        email=Email_txt.getText().toString().trim();
         if (email.isEmpty()){
-            Email_txt.setError("Required");
+            Email_txt.setError("Required Email");
 
         }else {
-            forgetPass();
+            Forgotpassword();
         }
-
     }
-    private void forgetPass() {
+
+    private void Forgotpassword() {
         auth.sendPasswordResetEmail(email)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                            Toast.makeText(ForgotPassword.this, "Check Your Email", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(ForgotPassword.this,Login.class));
+                            Toast.makeText(ForgotPassword.this,
+                                    "Check Your Email", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(ForgotPassword.this,
+                                    Login.class));
                             finish();
 
                         }
                         else {
                             Toast.makeText(ForgotPassword.this,
-                                    "Error:"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                    "Error:"+task.getException().getMessage(),
+                                    Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
     }
+
 }
